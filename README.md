@@ -10,6 +10,7 @@
 
 --- Backend ---
 - Create
+- Read
 - Update
 - Delete 
 
