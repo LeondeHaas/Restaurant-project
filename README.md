@@ -1,4 +1,4 @@
-# Restaurant-project
+# Restaurant-project / Template
 
 --- Main ---
 - Home
