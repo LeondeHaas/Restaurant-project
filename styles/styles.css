@@ -107,7 +107,7 @@
 
 .main-container-1 {
   width: 100%;
-  height: 650px;
+  height: 850px;
   background-color: #201c24;
   display: flex;
   justify-content: center;
@@ -169,7 +169,7 @@ img {
 .left-main-container-1 {
   width: 40%;
   height: 550px;
-  background-image: url(/Images/pot-of-cooking-shrimp-with-parsley-2022-01-12-00-56-31-utc.jpg);
+  background-image: url(/Images/professional-chef-preparing-meal-flambing-indoors-2022-02-10-02-42-01-utc.jpg);
   background-size: cover;
   background-position: 65%;
 }
@@ -184,8 +184,28 @@ img {
 .main-container-2 {
   width: 100%;
   height: 850px;
-  position: absolute;
-  background-color: rgba(32, 28, 36, 0.6588235294);
+  background-color: rgba(32, 28, 36, 0.8823529412);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.left-main-container-2 {
+  width: 40%;
+  height: 550px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.right-main-container-2 {
+  width: 40%;
+  height: 550px;
+  background-image: url(/Images/pot-of-cooking-shrimp-with-parsley-2022-01-12-00-56-31-utc.jpg);
+  background-size: cover;
+  background-position: 65%;
 }
 
 @media (min-width: 1950px) {
