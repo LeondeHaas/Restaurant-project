@@ -188,6 +188,23 @@ img {
   background-color: rgba(32, 28, 36, 0.6588235294);
 }
 
+@media (min-width: 1950px) {
+  .left-banner-container h1 {
+    font-size: 125px;
+  }
+  .left-banner-container h3 {
+    font-size: 80px;
+  }
+  .main-header-container {
+    height: 150px;
+  }
+  .main-banner-container {
+    height: 1000px;
+  }
+  .left-banner-container {
+    height: 1000px;
+  }
+}
 @media (max-width: 950px) {
   .main-header-container {
     padding-top: 15px;

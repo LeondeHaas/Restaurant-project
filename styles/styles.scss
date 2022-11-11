@@ -207,6 +207,30 @@
 
 // media queries for header & banner
 
+@media (min-width:1950px) {
+    .left-banner-container {
+        h1 {
+            font-size: 125px;
+        }
+
+        h3 {
+            font-size: 80px;
+        }
+    }
+
+    .main-header-container {
+        height: 150px;
+    }
+
+    .main-banner-container {
+        height: 1000px;
+    }
+
+    .left-banner-container {
+        height: 1000px;
+    }
+}
+
 @media (max-width:950px) {
     .main-header-container {
         padding-top: 15px;
