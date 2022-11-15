@@ -206,7 +206,14 @@ img {
     background-image: url(/Images/professional-chef-preparing-meal-flambing-indoors-2022-02-10-02-42-01-utc.jpg);
     background-size: cover;
     background-position: 65%;
+    // animation: left-to-right 1.5s ease-in-out;
 }
+
+// @keyframes left-to-right {
+//  100% {
+//     transform: translateX(10%);
+//  }
+// }
 
 // container #2
 
