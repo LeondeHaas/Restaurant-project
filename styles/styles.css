@@ -328,6 +328,7 @@ img {
 }
 
 .bottom-footer-bar {
+  border-top: 3px solid #1b171f;
   width: 100%;
   height: 65px;
   background-color: #1b171f;

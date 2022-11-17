@@ -169,16 +169,24 @@
     font-size: 18px;
   }
   .bottom-footer-bar h3 {
-    margin-left: 10%;
+    margin-left: 18%;
   }
 }
 @media (max-width: 1000px) {
   .main-footer-container .footer-container-1 h1 {
     padding-bottom: 0;
   }
+  .main-footer-container .footer-container-3 {
+    display: none;
+  }
 }
 @media (min-width: 1000px) {
   .main-footer-container .footer-container-2 .post-1 p {
     display: none;
+  }
+}
+@media (max-width: 300px) {
+  .bottom-footer-bar h3 {
+    margin-left: 0%;
   }
 }/*# sourceMappingURL=mediaqueries.css.map */

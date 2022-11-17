@@ -257,7 +257,7 @@
 
    .bottom-footer-bar {
     h3 {
-        margin-left: 10%;
+        margin-left: 18%;
     }
    }
 }
@@ -268,6 +268,10 @@
             h1 {
                 padding-bottom: 0;
             }
+        }
+
+        .footer-container-3 {
+            display: none;
         }
     }
 }
@@ -284,6 +288,10 @@
     }
 }
 
-// @media (max-width:430px) {
-    
-// }
+@media (max-width:300px) {
+   .bottom-footer-bar {
+    h3 {
+        margin-left: 0%;
+    }
+   }
+}
