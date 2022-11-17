@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-menu-container {
+  width: 100%;
+  height: 1000px;
+  background-color: rgba(32, 28, 36, 0.8823529412);
+}
+
+.main-banner-container {
+  background-image: url(/Images/italian-food-background-2021-08-26-16-35-53-utc.jpg);
+}/*# sourceMappingURL=menu.css.map */

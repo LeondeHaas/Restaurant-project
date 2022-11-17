@@ -45,6 +45,8 @@
 .main-header-container li {
   margin-right: 25px;
   margin-left: 25px;
+  list-style: none;
+  color: #fff;
 }
 
 .main-banner-container {
