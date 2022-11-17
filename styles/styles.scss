@@ -282,6 +282,11 @@ img {
     padding-bottom: 35px;
     h1 {
         padding-bottom: 30px;
+        font-size: 35px;
+    }
+
+    img {
+        width: 75px;
     }
 }
 
@@ -292,6 +297,7 @@ img {
     padding-bottom: 35px;
     h1 {
         padding-bottom: 30px;
+        font-size: 35px;
     }
 }
 
@@ -301,33 +307,30 @@ img {
     border-bottom: 2px solid #ffd904;
     padding-top: 10px;
     padding-bottom: 10px;
+    margin-bottom: 5px;
     li {
         color: #fff;
         font-family: 'Montserrat', sans-serif;
         font-family: 'Oswald', sans-serif;
         font-size: 20px;
-    } 
-    
-    li.title {
-        list-style-type: none;
-        margin-left: 0; 
-        padding-left: 0;
-        padding-top: 20px;
+        list-style: none;
+        margin-bottom: 10px;
     }
     
      h3 {
-        color: #fff;
+        color: rgba(153, 153, 153, 0.550);
         font-family: 'Montserrat', sans-serif;
         font-size: 15px;
+        margin-bottom: 10px;
     }
 
-    // .checkmarks-1 p:before {
-    //     content: "\4e";
-    //     color: #00966c;
-    //     font-size: 26px;
-    //     vertical-align: middle;
-    //     margin-right: 10px;
-    // }
+    li::before {
+        content: "\02C3";
+        font-size: 20px;
+        color: #ffd904;
+        margin-right: 10px;
+    }
+
 }
 
 .footer-container-3 {
@@ -336,8 +339,12 @@ img {
     // background-color: #1b171f;
     padding-top: 35px;
     padding-bottom: 35px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
      h1 {
         padding-bottom: 30px;
+        font-size: 35px;
     }
 }
 
@@ -349,6 +356,49 @@ img {
     padding-bottom: 35px;
      h1 {
         padding-bottom: 30px;
+        font-size: 35px;
+    }
+
+    h3 {
+        color: rgba(153, 153, 153, 0.550);
+        font-family: 'Montserrat', sans-serif;
+        font-size: 15px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    .important-links {
+        color: #fff;
+    }
+
+    p {
+        font-size: 15px;
+        color: rgba(153, 153, 153, 0.550);
+    }
+
+    .contact-icons {
+        display: flex;
+    } img {
+        width: 40px;
+        margin-right: 20px;
+    }
+}
+
+.bottom-footer-bar {
+    width: 100%;
+    height: 65px;
+    background-color: #1b171f;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: left;
+    h3 {
+        color: rgba(153, 153, 153, 0.550);
+        font-family: 'Montserrat', sans-serif;
+        font-size: 15px;
+        margin-left: 4%;
+    } span {
+        color: #fff;
     }
 }
 

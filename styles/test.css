@@ -1,21 +1,36 @@
-.parent {
-    background-color: darkblue;
-    width: 400px;
-    height: 400px;
+
+/* Parent */
+
+.myDIV {
+    width: 200px;
+    background-color: #333;
 }
 
-.child {
-    background-image: url(/Images/home-background.jpg);
-    background-size: cover;
-    background-color: red;
-    width: 50%;
-    height: 50%;
-    animation: left-to-right 1.5s cubic-bezier(0.08, 0.63, 0.43, 1.3) forwards;
+/* Child */
+
+li {
+    color: #fff;
+    font-size: 15px;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
-@keyframes left-to-right {
- 100% {
-    transform: translateX(100%);            
-    background-color: purple;
- }
+li::before{
+    content: "\1F4E7";
+    font-size: 50px;
+    color: red;
+    margin-right: 25px;
 }
+
+    /*
+
+    Add your unicode character inside the content quotes,
+    don't forget to add a backwards slash before the numbers.
+    You can also add any color you want.
+    
+    Here is a link the website with the unicdoes.
+    https://www.compart.com/en/unicode/
+
+    */

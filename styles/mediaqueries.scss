@@ -217,3 +217,73 @@
         }
     }
 }
+
+// media queries for footer
+
+@media (max-width:1400px) {
+    .footer-container-1 {
+        p {
+            font-size: 17px;
+        }
+    }
+}
+
+@media (max-width:1200px) {
+    .footer-container-1 {
+        p {
+            font-size: 14px;
+        }
+    }
+}
+
+@media (max-width:1000px) {
+   .main-footer-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+   }
+
+   .footer-container-1, .footer-container-2, .footer-container-3, .footer-container-4 {
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+   } p {
+    margin-bottom: 10px;
+    font-size: 18px;
+   }
+
+   .bottom-footer-bar {
+    h3 {
+        margin-left: 10%;
+    }
+   }
+}
+
+@media (max-width:1000px) {
+    .main-footer-container {
+        .footer-container-1 {
+            h1 {
+                padding-bottom: 0;
+            }
+        }
+    }
+}
+
+@media (min-width:1000px) {
+    .main-footer-container {
+        .footer-container-2 {
+            .post-1 {
+                p {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+// @media (max-width:430px) {
+    
+// }
