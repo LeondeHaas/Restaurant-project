@@ -176,9 +176,6 @@
   .main-footer-container .footer-container-1 h1 {
     padding-bottom: 0;
   }
-  .main-footer-container .footer-container-3 {
-    display: none;
-  }
   .main-footer-container .cutoff-text {
     --max-lines: 3;
     --line-height: 1.4;
@@ -208,7 +205,7 @@
     margin-bottom: 1rem;
   }
   .main-footer-container .expand-btn:hover {
-    background-color: #fff;
+    background-color: #2c2433;
   }
   .main-footer-container .expand-btn::before {
     content: "Expand";
@@ -224,6 +221,9 @@
 }
 @media (min-width: 1000px) {
   .main-footer-container .footer-container-2 .post-1 p {
+    display: none;
+  }
+  .main-footer-container .footer-container-2 .post-1 input {
     display: none;
   }
 }

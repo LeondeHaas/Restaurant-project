@@ -260,6 +260,8 @@
         margin-left: 18%;
     }
    }
+
+
 }
 
 @media (max-width:1000px) {
@@ -270,9 +272,11 @@
             }
         }
 
-        .footer-container-3 {
-            display: none;
-        }
+        // .footer-container-3 {
+        //     display: none;
+        // }
+
+            // expand and collapsing text
 
             .cutoff-text {
             --max-lines: 3;
@@ -303,7 +307,7 @@
             margin-top: 1rem;
             margin-bottom: 1rem;
         }.expand-btn:hover {
-            background-color: #fff;
+            background-color: #2c2433;
         } .expand-btn::before {
             content: "Expand";
             color: #fff;
@@ -323,6 +327,10 @@
         .footer-container-2 {
             .post-1 {
                 p {
+                    display: none;
+                }
+
+                input {
                     display: none;
                 }
             }

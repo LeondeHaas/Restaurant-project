@@ -1,36 +1,18 @@
-
-/* Parent */
-
-.myDIV {
-    width: 200px;
-    background-color: #333;
+label:has(+ input:valid) {
+    color: greenyellow;
 }
 
-/* Child */
-
-li {
-    color: #fff;
-    font-size: 15px;
-    list-style: none;
-    justify-content: center;
-    align-items: center;
-    display: flex;
+label:has(+ input:valid)::before {
+    content: ">>>";
+    margin-right: .25em;
 }
 
-li::before{
-    content: "\1F4E7";
-    font-size: 50px;
+label:has(+ input:invalid) {
     color: red;
-    margin-right: 25px;
 }
 
-    /*
 
-    Add your unicode character inside the content quotes,
-    don't forget to add a backwards slash before the numbers.
-    You can also add any color you want.
-    
-    Here is a link the website with the unicdoes.
-    https://www.compart.com/en/unicode/
-
-    */
+label:has(+ input:invalid)::before {
+    content: "<<<";
+    margin-right: .25em;
+}
