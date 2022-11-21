@@ -273,6 +273,48 @@
         .footer-container-3 {
             display: none;
         }
+
+            .cutoff-text {
+            --max-lines: 3;
+            --line-height: 1.4;
+
+            max-height: calc(var(--max-lines) * 1em * var(--line-height));
+            line-height: var(--line-height);
+            overflow: hidden;
+            position: relative;
+        }
+
+        .cutoff-text:has(+ .expand-btn:not(:checked)):before {
+            content: "";
+            position: absolute;
+            height: calc(1em * var(--line-height));
+            width: 100%;
+            bottom: 0;
+            pointer-events: none;
+            background: linear-gradient(to bottom, transparent, #1b171f);
+        }
+        
+        .expand-btn {
+            appearance: none;
+            border: 1px solid #fff;
+            padding: .5em;
+            border-radius: .25em;
+            cursor: pointer;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }.expand-btn:hover {
+            background-color: #fff;
+        } .expand-btn::before {
+            content: "Expand";
+            color: #fff;
+            font-family: 'Montserrat', sans-serif;
+        } .expand-btn:checked::before {
+            content: "Collapse";
+        }
+
+        .cutoff-text:has(+ .expand-btn:checked) {
+            max-height: none;
+        }
     }
 }
 
