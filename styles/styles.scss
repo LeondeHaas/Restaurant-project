@@ -389,29 +389,11 @@ input[type=submit] {
   cursor: pointer;
 }
 
-// label:has(+ input:valid) {
-//     color: greenyellow;
-// }
-
-// label:has(+ input:valid)::before {
-//     content: "✔";
-//     margin-right: .25em;
-// }
-
-// label:has(+ input:invalid) {
-//     color: red;
-// }
-
-
-// label:has(+ input:invalid)::before {
-//     content: "✖";
-//     margin-right: .25em;
-// }
-
 .container {
   border-radius: 15px;
   background-color: #2a2330;
   padding: 20px;
+  width: 100%;
 } label {
     font-family: 'Montserrat', sans-serif;
        font-family: 'Oswald', sans-serif;

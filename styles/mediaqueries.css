@@ -150,7 +150,7 @@
     font-size: 14px;
   }
 }
-@media (max-width: 1000px) {
+@media (max-width: 1500px) {
   .main-footer-container {
     flex-direction: column;
     justify-content: center;
@@ -172,7 +172,7 @@
     margin-left: 18%;
   }
 }
-@media (max-width: 1000px) {
+@media (max-width: 1500px) {
   .main-footer-container .footer-container-1 h1 {
     padding-bottom: 0;
   }
@@ -219,7 +219,7 @@
     max-height: none;
   }
 }
-@media (min-width: 1000px) {
+@media (min-width: 1500px) {
   .main-footer-container .footer-container-2 .post-1 p {
     display: none;
   }

@@ -324,6 +324,7 @@ input[type=submit] {
   border-radius: 15px;
   background-color: #2a2330;
   padding: 20px;
+  width: 100%;
 }
 
 label {
