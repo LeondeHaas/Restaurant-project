@@ -44,7 +44,7 @@
   transition: all 0.3s ease;
 }
 .menu-list li a:hover{
-  color: #007bff;
+  color: #ffd904;;
 }
 
 .about{
@@ -69,6 +69,7 @@
   right: 30px;
   top: 20px;
 }
+
 @media (max-width: 900px) {
   body.disabled{
     overflow: hidden;
@@ -83,14 +84,16 @@
     position: fixed;
     height: 100vh;
     width: 100%;
-    max-width: 400px;
+    max-width: 280px;
     left: -100%;
     top: 0px;
     display: block;
     padding: 40px 0;
-    text-align: center;
+    text-align: left;
+    padding-left: 35px;
     background: #000;
     transition: all 0.3s ease;
+    line-height: 0em;
   }
   .navbar.show .menu-list{
     left: 0%;
@@ -105,12 +108,18 @@
   }
   .navbar.show .menu-list li a{
     margin-left: 0px;
+    font-size: 20px;
   }
 }
 
 @media (max-width: 500px) {
   .icon {
     font-size: 25px;
+  }
+
+  .navbar.show .menu-list li a{
+    margin-left: 0px;
+    font-size: 15px;
   }
 }
 @media (max-width: 380px) {
