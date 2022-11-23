@@ -1,31 +1,4 @@
-<!DOCTYPE html>
-<!-- Coding By CodingNepal - youtube.com/codingnepal -->
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Draggable Image Slider | CodingNepal</title>
-    <link rel="stylesheet" href="styles/test.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-    <script src="script.js" defer></script>
-  </head>
-  <body>
-    <div class="slider-container">
-      <div class="wrapper">
-      <i id="left" class="fa-solid fa-angle-left"></i>
-      <div class="carousel">
-        <img src="Images/italian-food-background-2021-08-26-16-35-53-utc.jpg" alt="img" draggable="false">
-        <img src="Images/professional-chef-preparing-meal-flambing-indoors-2022-02-10-02-42-01-utc.jpg" alt="img" draggable="false">
-                <img src="Images/italian-food-background-2021-08-26-16-35-53-utc.jpg" alt="img" draggable="false">
-        <img src="Images/professional-chef-preparing-meal-flambing-indoors-2022-02-10-02-42-01-utc.jpg" alt="img" draggable="false">
-                <img src="Images/italian-food-background-2021-08-26-16-35-53-utc.jpg" alt="img" draggable="false">
-        <img src="Images/professional-chef-preparing-meal-flambing-indoors-2022-02-10-02-42-01-utc.jpg" alt="img" draggable="false">
-      </div>
-      <i id="right" class="fa-solid fa-angle-right"></i>
-      </div> 
-    </div>
-    <script>
-      const carousel = document.querySelector(".carousel"),
+  const carousel = document.querySelector(".carousel"),
 firstImg = carousel.querySelectorAll("img")[0],
 arrowIcons = document.querySelectorAll(".wrapper i");
 
@@ -98,7 +71,3 @@ carousel.addEventListener("touchmove", dragging);
 
 document.addEventListener("mouseup", dragStop);
 carousel.addEventListener("touchend", dragStop);
-    </script>
-    
-  </body>
-</html>
