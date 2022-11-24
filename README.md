@@ -2,7 +2,7 @@
 
 --- Main ---
 - Home
-- About
+- About us
 - Menu
 - Reservations
 - Locations
