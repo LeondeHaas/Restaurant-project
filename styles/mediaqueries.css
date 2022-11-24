@@ -110,7 +110,7 @@
 @media (max-width: 1010px) {
   .main-container-2 {
     height: auto;
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
   .left-main-container-2 {
     width: 80%;
@@ -119,7 +119,6 @@
   }
   .right-main-container-2 {
     width: 80%;
-    height: auto;
   }
 }
 @media (max-width: 510px) {

@@ -124,6 +124,14 @@
         width: 80%;
         height: auto;
     }
+
+    // .main-container-2 {
+    //     flex-direction: column-reverse!important;
+    // }
+
+    // .right-main-container-2 {
+    //     height: 550px!important;
+    // }
 }
 
 @media (max-width:510px) {
@@ -167,7 +175,7 @@
 @media (max-width:1010px) {
     .main-container-2 {
         height: auto;
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     .left-main-container-2 {
@@ -178,7 +186,6 @@
 
     .right-main-container-2 {
         width: 80%;
-        height: auto;
     }
 }
 
