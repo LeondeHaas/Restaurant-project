@@ -16,6 +16,7 @@
 
 --- Other ---
 
+- footer
 - Collapsing mobile menu
 - Fully responsive
 

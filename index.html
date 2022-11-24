@@ -6,12 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <link rel="stylesheet" href="styles/styles.css">
-    <link rel="stylesheet" href="styles/test.css">
     <link rel="stylesheet" href="styles/mediaqueries.css">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Document</title>
 </head>
 <style>
@@ -51,7 +51,7 @@
 </header> -->
 <body>
     <div class="main-banner-container">
-        <div class="left-banner-container">
+        <div class="left-banner-container" data-aos="fade-up" data-aos-duration="2000" data-aos-once="true">
             <h3>Welcome</h3>
             <h1>LEON'S BIGGEST<br> RESTAURANT</h1>
             <div class="container-lines">
@@ -64,7 +64,7 @@
         <div class="right-banner-container"></div>
     </div>
     <div class="main-container-1">
-        <div class="left-main-container-1"></div>
+        <div class="left-main-container-1" data-aos="fade-left" data-aos-duration="2000" data-aos-once="true"></div>
         <div class="right-main-container-1">
             <div class="right-main-container-text-box-1">
                 <h1>THE BEST CHEFS IN TOWN</h1>
@@ -79,11 +79,11 @@
                 <button>MAKE A RESERVATION</button>
             </div>
         </div>
-        <img src="Images/chef (2).png" alt="">
+        <img data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true"src="Images/chef (2).png" alt="">
     </div>
     <div class="main-container-2-background">
         <div class="main-container-2">
-            <img src="Images/hamburger.png" alt="">
+            <img data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true" src="Images/hamburger.png" alt="">
             <div class="left-main-container-2">
                 <div class="right-main-container-text-box-1">
                     <h1>THE BEST FOOD</h1>
@@ -97,10 +97,10 @@
                     <button>BOOK A TABLE</button>
                 </div>
             </div>
-            <div class="right-main-container-2"></div>
+            <div class="right-main-container-2" data-aos="fade-right" data-aos-duration="2000" data-aos-once="true"></div>
         </div>
     </div>
-     <div class="slider-container">
+     <!-- <div class="slider-container">
       <div class="wrapper">
       <i id="left" class="fa-solid fa-angle-left"></i>
       <div class="carousel">
@@ -113,7 +113,7 @@
       </div>
       <i id="right" class="fa-solid fa-angle-right"></i>
       </div> 
-    </div>
+    </div> -->
 </body>
 <footer>
     <div class="footer-bar"></div>
@@ -199,4 +199,11 @@
 </footer>
 <script src="Javascript/mobile-header.js"></script>
 <script src="Javascript/script.js" defer></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 3000,
+        once: true,
+      });
+    </script>
 </html>
