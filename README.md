@@ -9,10 +9,7 @@
 - Contact
 
 --- Backend ---
-- Create
-- Read
-- Update
-- Delete 
+Make CRUD using PHP and MySQL
 
 --- Other ---
 
