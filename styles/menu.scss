@@ -4,12 +4,73 @@
     box-sizing: border-box;
 }
 
-.main-menu-container {
-    width: 100%;
-    height: 1000px;
-    background-color: #201c24e1;
+// colors website :
+// #fff         white
+// #ffd904;     yellow
+// #201c24;
+// #201c24e1;
+
+//size cards
+@mixin size {
+    width: 400px;
+    height: auto;
 }
 
-.main-banner-container {
-    background-image: url(/Images/italian-food-background-2021-08-26-16-35-53-utc.jpg);
+.main-menu-container {
+    width: 100%;
+    height: auto;
+    background-color: #201c24;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    align-items: center
+} .card-container {
+    width: 400px;
+    height: auto;
+    background-color:  #1b171f;
+    .price {
+        padding-bottom: 10px;
+        padding-left: 25px;
+        padding-right: 25px;
+    } h3 {
+        color: #fff;
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'Oswald', sans-serif;
+        border-bottom: 5px solid #ffd904;
+        padding-bottom: 15px;
+    }
+} .item-name {
+    width: 400px;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
+.image {
+    width: 400px;
+    height: auto;
+    justify-content: center;
+    display: flex;
+} img {
+    width: 250px;
+    height: auto;
+}
+
+  .item-description {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+  }
+  
+//   .extra {
+//     height: auto;
+//   } .content {
+//     width: 65px;
+//     height: auto;
+//   }
