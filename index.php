@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="styles/mediaqueries.css">
     <link rel="stylesheet" href="styles/header.css">
-    <link rel="stylesheet" href="styles/primary_button.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
@@ -45,7 +44,7 @@
                 <img src="Images/restaurant (2412).png" alt="">
                 <div class="lines"></div>
             </div>
-           <nav>
+           <!-- <nav>
                 <ul>
                     <li>
                     home
@@ -53,7 +52,8 @@
                     </li>
                 </ul>
             </nav>
-        </div>
+        </div> -->
+        <button></button>
         <div class="right-banner-container"></div>
     </div>
     <div class="main-container-1">

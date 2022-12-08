@@ -1,4 +1,4 @@
-  <!-- <nav class="navbar">
+  <nav class="navbar">
     <div class="content">
       <ul class="menu-list">
         <div class="icon cancel-btn">
@@ -15,4 +15,4 @@
         <i class="fas fa-bars"></i>
       </div>
     </div>
-  </nav> -->
+  </nav>

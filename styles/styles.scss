@@ -66,27 +66,27 @@
 // main banner content
 
 
-// .main-header-container {
-//     font-family: 'Montserrat', sans-serif;
-//     letter-spacing: 3px;
-//     font-weight: 500;
-//     position: fixed;
-//     width: 100%;
-//     background-color: rgba(0, 0, 0, 0.415);
-//     height: 85px;
-//     color: #fff;
-//     display: flex;
-//     justify-content: flex-end;
-//     align-items: center;
-//     list-style: none;
+.main-header-container {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 3px;
+    font-weight: 500;
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.415);
+    height: 85px;
+    color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
 
-//     li {
-//         margin-right: 25px;
-//         margin-left: 25px;
-//         list-style: none;
-//         color: #fff;
-//     }
-// }
+    li {
+        margin-right: 25px;
+        margin-left: 25px;
+        list-style: none;
+        color: #fff;
+    }
+}
 
 .main-banner-container {
     width: 100%;
@@ -94,7 +94,7 @@
     background-image: url(../Images/home-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
+    background-attachment: fixed;
 }
 
 .left-banner-container {
