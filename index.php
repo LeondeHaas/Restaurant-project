@@ -53,7 +53,7 @@
                 </ul>
             </nav>
         </div> -->
-        <button></button>
+        <button>CHECK US OUT!</button>
         <div class="right-banner-container"></div>
     </div>
     <div class="main-container-1">
@@ -69,7 +69,7 @@
                     cooked to perfection. Whether it's a romantic dinner for two or a special occasion feast with
                     friends and family, we've got the perfect menu just waiting for you.
                 </p>
-                
+                <button>OUR TEAM</button>
             </div>
         </div>
         <img data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true"src="Images/chef (2).png" alt="">
@@ -87,14 +87,7 @@
                         years perfecting their craft, so they know how to turn out each and every dish with the utmost
                         care and precision. We invite you to come experience our food for yourself—and trust us when we
                         say that you'll never want to leave!</p>
-                     <nav>
-                <ul>
-                    <li>
-                    home
-                    <span></span><span></span><span></span><span></span>
-                    </li>
-                </ul>
-            </nav>
+                  <button>OUR TEAM</button>
                 </div>
             </div>
             <div class="right-main-container-2" data-aos="fade-right" data-aos-duration="2000" data-aos-once="true"></div>
