@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  width: 100%;
+  height: 1000px;
+  background-color: #1b171f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-container {
+  width: 80%;
+  height: 500px;
+  background-color: gray;
+}/*# sourceMappingURL=backend.css.map */

@@ -29,13 +29,13 @@
 } .card-container {
     width: 400px;
     height: auto;
-    background-color:  #1b171f;
+    // background-color:  #1b171f;
     .price {
         padding-bottom: 10px;
         padding-left: 25px;
         padding-right: 25px;
     } h3 {
-        color: #fff;
+        color: #fff!important;
         font-family: 'Montserrat', sans-serif;
         font-family: 'Oswald', sans-serif;
         border-bottom: 5px solid #ffd904;
@@ -67,6 +67,11 @@
     padding-right: 25px;
     padding-top: 25px;
   }
+
+  .type {
+    padding-left: 25px;
+    padding-right: 25px;
+  } 
   
 //   .extra {
 //     height: auto;
